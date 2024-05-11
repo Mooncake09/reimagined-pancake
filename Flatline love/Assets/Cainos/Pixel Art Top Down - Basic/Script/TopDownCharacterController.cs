@@ -17,10 +17,10 @@ namespace Cainos.PixelArtTopDown_Basic
             originSpeed = speed;
         }
 
-
         private void Update()
         {
             Vector2 dir = Vector2.zero;
+
             if (Input.GetKey(KeyCode.A))
             {
                 dir.x = -1;
